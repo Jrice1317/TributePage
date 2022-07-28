@@ -1,0 +1,103 @@
+html {
+
+}
+
+/* <--- Styling of the banner ---> */
+
+header h1 {
+    background-image: url(/Resources/Media/money.gif);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    color: green;               
+    background-color: darkgray;
+    padding: 50px 50px 50px 25px;
+    margin: 0 auto;
+}
+            
+/* <--- Styling of the navigation links ---> */
+            
+#nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+            
+a {
+    color: rgb(131, 112, 4);
+}
+            
+a:hover {
+    color: black;
+}
+
+/* <--- Styling of the marquee ---> */
+
+.marquee {
+    display: flex;
+    justify-content: center;
+}
+
+/* <--- Styling of the names  ---> */
+            
+h2 {
+    text-align: center;
+    background-color: green;
+}
+            
+/* <--- Styling of the headshots ---> */
+            
+.headshot {
+    text-align: center;
+}
+            
+/* <--- Styling of the lists ---> */
+            
+            ul {
+                padding-left: 40%;
+                text-align: left;
+                font-size: medium;
+             
+            }
+            
+            #label {
+                font-size: large;
+                color: green;
+                font: bolder;
+                ;
+            }
+
+/* Styling of tables */
+            table {
+                border: 10px dashed rgb(131, 112, 4);
+            }
+
+            .left {
+                padding-top: 2%;
+                font-size: larger;
+            }
+            
+/* <--- Styling of the paragraphs ---> */
+            
+            p {
+                padding-left: 10%;
+                padding-right: 10%;
+                justify-content: center;
+                text-align: center;
+            }
+            
+/* <--- Styling of the media ---> */
+            figure {
+                padding-top: 2%;
+            }
+
+            figcaption {
+                font-size: small;
+                text-align: center;
+            }
+            
+/* <--- Styling of the footer ---> */
+            
+            footer {
+                text-align: center;
+            }
